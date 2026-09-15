@@ -36,5 +36,25 @@ export const site = {
       quote: "Great ambient, nice food and staff. Easy to park. Good local place to have a decent pho. Modern and clean inside. Thank you.",
       name: "Jay M.",
     },
+    {
+      quote: "First time trying Pho Mai and my family loved it. Food was very fresh, good quality and delicious! Staff were very friendly and offered great service.",
+      name: "Nicole G.",
+    },
+    {
+      quote: "The food was yummy. Service was great — we ordered when we got there and didn't have to wait too long!",
+      name: "Lyn F.",
+    },
+    {
+      quote: "Very cozy dining with rows of ceiling lights making the restaurant merry and bright. The Filet Mignon Pho had a light, flavorful broth with tender meat — can't wait to visit again!",
+      name: "Net A.",
+    },
+    {
+      quote: "Ambience quiet and casual. Place clean and organized, seating nice and spacious. Good service.",
+      name: "Bienvenido A.",
+    },
+    {
+      quote: "Broth was flavorful and staff was attentive. Wonderful selection of beverages and foods.",
+      name: "Steff M.",
+    },
   ],
 };
