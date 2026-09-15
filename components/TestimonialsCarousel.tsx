@@ -21,7 +21,10 @@ export default function TestimonialsCarousel() {
     const track = trackRef.current;
     if (!track) return;
     const child = track.children[active] as HTMLElement | undefined;
-    child?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    if (!child) return;
+    // Scroll only the horizontal track itself — never scrollIntoView, which
+    // would also drag the whole page's vertical scroll position along with it.
+    track.scrollTo({ left: child.offsetLeft, behavior: "smooth" });
   }, [active]);
 
   return (

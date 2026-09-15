@@ -21,10 +21,10 @@ export default function Footer() {
       </Reveal>
 
       <div className="grid gap-0 border-b border-cream/10 md:grid-cols-2">
-        <Reveal className="h-72 md:h-auto">
+        <Reveal className="flex items-center px-6 py-12 sm:px-12">
           <iframe
             title="Pho Mai location map"
-            className="h-full w-full grayscale"
+            className="h-64 w-full rounded-lg grayscale sm:h-80"
             style={{ border: 0 }}
             loading="lazy"
             allowFullScreen
